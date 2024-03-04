@@ -25,6 +25,7 @@ This project showcases a high-performance asynchronous web server implemented in
 
 To compile the server, use the following command:
 
+gcc -o async_web_server server.c -laio -lpthread
 
 ### Running the Server
 
